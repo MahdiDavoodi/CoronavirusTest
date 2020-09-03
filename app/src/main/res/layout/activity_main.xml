@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appbar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layoutDirection="ltr"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#17DB1F"
+            android:layoutDirection="ltr"
+            android:textDirection="ltr"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:subtitle="@string/Covid_19"
+            app:subtitleTextAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:subtitleTextColor="#034911"
+            app:title="@string/CoronaVirus"
+            app:titleTextAppearance="@style/TextAppearance.AppCompat.Large"
+            app:titleTextColor="#001303"></androidx.appcompat.widget.Toolbar>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#17DB1F"
+            android:gravity="center"
+            android:layoutDirection="ltr"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_main_from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/from"
+                android:textAlignment="center"
+                android:textColor="#001303"
+                android:textDirection="ltr"
+                android:textSize="12sp"
+                android:textStyle="bold|italic" />
+
+            <TextView
+                android:id="@+id/tv_main_gpname"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-smallcaps"
+                android:text="@string/group_name"
+                android:textAlignment="center"
+                android:textColor="#E91E63"
+                android:textDirection="ltr"
+                android:textSize="18sp"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#17DB1F"
+            android:layoutDirection="ltr"
+            app:tabIndicatorColor="#E91E63"
+            app:tabMode="scrollable"
+            app:tabSelectedTextColor="#001303"
+            app:tabTextColor="#DD057719" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#001303"
+        android:layoutDirection="ltr"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" >
+
+    </androidx.viewpager.widget.ViewPager>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent"
+    android:background="#001303"
+    tools:context=".AppTestFinalActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_apptest2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#17DB1F"
+            android:layoutDirection="rtl"
+            android:minHeight="?attr/actionBarSize"
+            android:textDirection="rtl"
+            android:theme="?attr/actionBarTheme"
+            app:subtitle="@string/tv_apptest_final1"
+            app:subtitleTextColor="#034911"
+            app:title="@string/tv_apptest_final"
+            app:titleTextColor="#001303" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <ImageView
+            android:id="@+id/iv_apptest_final"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:srcCompat="@mipmap/ic_launcher_chart_foreground" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv1_apptest_final"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:textAlignment="center"
+            android:textColor="#17DB1F"
+            android:textDirection="rtl"
+            android:textSize="40sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv2_apptest_final"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="@string/tv2_apptest_final"
+            android:textAlignment="center"
+            android:textColor="#17DB1F"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv3_apptest_final"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="#17DB1F"
+            android:textDirection="ltr"
+            android:textSize="40sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv4_apptest_final"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="@string/tv4_apptest_final"
+            android:textAlignment="center"
+            android:textColor="#17DB1F"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btn_apptest_final"
+            android:onClick="btnAppTestFinalOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#17DB1F"
+            android:fontFamily="casual"
+            android:text="@string/return_app"
+            android:textAlignment="center"
+            android:textColor="#001303"
+            android:textDirection="rtl"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

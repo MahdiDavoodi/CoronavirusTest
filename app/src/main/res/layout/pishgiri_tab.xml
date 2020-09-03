@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layoutDirection="ltr"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <ImageView
+            android:id="@+id/iv_pishgiri_tab"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:srcCompat="@mipmap/ic_launcher_health_foreground" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv_pishgiri_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="@string/tv_pishgiri_tab"
+            android:textAlignment="center"
+            android:textColor="#17DB1F"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv2_pishgiri_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:layoutDirection="rtl"
+            android:text="@string/tv2_pishgiri_tab"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv3_pishgiri_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:layoutDirection="rtl"
+            android:text="@string/tv3_pishgiri_tab"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv4_pishgiri_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:layoutDirection="rtl"
+            android:text="@string/tv4_pishgiri_tab"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv5_pishgiri_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:layoutDirection="rtl"
+            android:text="@string/tv5_pishgiri_tab"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv6_pishgiri_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:layoutDirection="rtl"
+            android:text="@string/tv6_pishgiri_tab"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv7_pishgiri_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:layoutDirection="rtl"
+            android:text="@string/tv7_pishgiri_tab"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv8_pishgiri_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:layoutDirection="rtl"
+            android:text="@string/tv8_pishgiri_tab"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv9_pishgiri_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:layoutDirection="rtl"
+            android:text="@string/tv9_pishgiri_tab"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/tv11_pishgiri_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:text="@string/tv11_pishgiri_tab"
+            android:textAlignment="center"
+            android:textColor="#17DB1F"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

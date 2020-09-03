@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent"
+    android:background="#001303"
+    tools:context=".GoodSrcActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_goodsrc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#17DB1F"
+            android:layoutDirection="rtl"
+            android:minHeight="?attr/actionBarSize"
+            android:textDirection="rtl"
+            android:theme="?attr/actionBarTheme"
+            app:subtitle="@string/good_src1"
+            app:subtitleTextColor="#034911"
+            app:title="@string/good_src"
+            app:titleTextColor="#001303" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <ImageView
+            android:id="@+id/im_good_src"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:srcCompat="@mipmap/ic_launcher_src_foreground" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btn_good_src"
+            android:onClick="btn1goodsrcOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#0017DB1F"
+            android:fontFamily="casual"
+            android:text="@string/good_src_2"
+            android:textAlignment="center"
+            android:textColor="#17DB1F"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btn_good_src3"
+            android:onClick="btn2goodsrcOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#0017DB1F"
+            android:fontFamily="casual"
+            android:text="@string/good_src_7"
+            android:textAlignment="center"
+            android:textColor="#17DB1F"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btn_good_src2"
+            android:onClick="btn3goodsrcOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#0017DB1F"
+            android:fontFamily="casual"
+            android:text="@string/good_src_5"
+            android:textAlignment="center"
+            android:textColor="#17DB1F"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btn_good_src4"
+            android:onClick="btn4goodsrcOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#0017DB1F"
+            android:fontFamily="casual"
+            android:text="@string/good_src_3"
+            android:textAlignment="center"
+            android:textColor="#17DB1F"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btn_good_src7"
+            android:onClick="btn5goodsrcOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#0017DB1F"
+            android:fontFamily="casual"
+            android:text="@string/good_src_1"
+            android:textAlignment="center"
+            android:textColor="#17DB1F"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btn_good_src6"
+            android:onClick="btn6goodsrcOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#0017DB1F"
+            android:fontFamily="casual"
+            android:text="@string/good_src_4"
+            android:textAlignment="center"
+            android:textColor="#17DB1F"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp" />
+
+        <Button
+            android:id="@+id/btn_good_src5"
+            android:onClick="btn7goodsrcOnClick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#0017DB1F"
+            android:fontFamily="casual"
+            android:text="@string/good_src_6"
+            android:textAlignment="center"
+            android:textColor="#17DB1F"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/tv_good_src"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="casual"
+            android:text="@string/no_vpn_needed"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textDirection="rtl"
+            android:textSize="14sp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

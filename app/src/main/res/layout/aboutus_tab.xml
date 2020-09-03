@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layoutDirection="ltr"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/tv_aboutus_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="6"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:layoutDirection="rtl"
+            android:text="@string/tv_aboutus_tab"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textDirection="rtl"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="2" />
+
+        <ImageView
+            android:id="@+id/iv_aboutus_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            app:srcCompat="@mipmap/ic_launcher_foreground" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_weight="2" />
+
+        <TextView
+            android:id="@+id/tv_aboutus_thanks_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text="@string/tv_aboutus_thanks_tab"
+            android:textAlignment="center"
+            android:textColor="#E91E63"
+            android:textDirection="rtl"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_weight="2" />
+
+        <TextView
+            android:id="@+id/tv_aboutus_year_tab"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="@string/year"
+            android:textAlignment="center"
+            android:textColor="#17DB1F"
+            android:textDirection="ltr"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
